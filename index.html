@@ -9,15 +9,12 @@
     <!-- Code syntax highlight CSS file -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
     <!--[if lt IE 9]>
-  	<script src="lib/js/html5shiv.js"></script>
-  	<![endif]-->
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
   </head>
   <body>
-
     <div class="reveal">
-
       <div class="slides">
-
         <!-- BEGINNNG SLIDES ================================== -->
         <section>
           <h2>Intro To C Programming <small>Beginner + Advance Workshop</small></h2>
@@ -27,138 +24,429 @@
           </small></p>
         </section>
         <section>
-            <h3><a> There's only one rule.</a></h3>
-            <ul>
-              <li>Every question is important.</li>
-            </ul>
-            <hr>
-            Let's begin.
-        </section>
-        <section>
-        <section>
-          <h1>Uses of C</h1>
-          <hr width="10%"/>
-        </section>
-        <section>
-          <img src="assets/solve.jpg"  width="400px" />
-          <h2>Solving Real Problems</h2>
-        </section>
-        <section>
-          <img src="assets/nasa.jpg"  width="600px" />
-          <h2>Building Awesome</h2>
-        </section>
-        <section>
-          <img src="assets/topper.jpg"  width="600px" />
-          <h2>Score in UPTU</h2>
-        </section>
-        <section>
-          <img class="fragment" data-fragment-index="1" src="assets/swag.jpg" width="300px" />
-          <h2>To get Hacker's Swag</h2>
-        </section>
-      </section>
-      <section>
-        <section>
-          <h1> What is C ? </h1>
+          <h3><a> There's only one rule.</a></h3>
           <ul>
-            <li>
-          C is the third letter of English alphabets . lol !
-          </li>
-          <li>It’s a computer programming language .</li>
-          <li>That means, you can use C to give your computer instructions to follow .</li>
-         </ul>
+            <li>Every question is important.</li>
+          </ul>
+          <hr>
+          Let's begin.
         </section>
         <section>
-          <img src="assets/owner.jpg">
-          <h4>Dennis Ritchie </h4>
-          <h2>And this guy made it .</h2>
+          <section>
+            <h1>Uses of C</h1>
+            <hr width="10%"/>
+          </section>
+          <section>
+            <img src="assets/solve.jpg"  width="400px" />
+            <h2>Solving Real Problems</h2>
+          </section>
+          <section>
+            <img src="assets/nasa.jpg"  width="600px" />
+            <h2>Building Awesome</h2>
+          </section>
+          <section>
+            <img src="assets/topper.jpg"  width="600px" />
+            <h2>Score in UPTU</h2>
+          </section>
+          <section>
+            <img class="fragment" data-fragment-index="1" src="assets/swag.jpg" width="300px" />
+            <h2>To get Hacker's Swag</h2>
+          </section>
         </section>
-      </section>
+        <section>
+          <section>
+            <h1> What is C ? </h1>
+            <ul>
+              <li>
+                C is the third letter of English alphabets . lol !
+              </li>
+              <li>It’s a computer programming language .</li>
+              <li>That means, you can use C to give your computer instructions to follow .</li>
+            </ul>
+          </section>
+          <section>
+            <img src="assets/owner.jpg">
+            <h4>Dennis Ritchie </h4>
+            <h2>And this guy made it .</h2>
+          </section>
+        </section>
         <section>
           <h2>First Code of Every Geek</h2>
-          <pre><code>
-
-                #include&lt;stdio.h&gt;
-                
-                int main()
-                  
-                  {
-                    
-                    printf("Hello World!");
-
-                    return 0;
-
-                  }
-
-                </code></pre>
-
+                    <pre><code>
+                            #include&lt;stdio.h&gt;
+                            
+                            int main()
+                              
+                              {
+                                
+                                printf("Hello World!");
+                                return 0;
+                              }
+          </code></pre>
         </section>
-     <section>
-       <h3>How to run a c program</h3>
-       <hr width="10%">
-       <ol>
-         <li class="fragment" data-fragment-index="1">
-           Click the file manager in sidebar
-         </li>
-         <li class="fragment" data-fragment-index="2">
-           Make new file as prog.c
-         </li>
-         <li class="fragment" data-fragment-index="3">
-           Click the file manager in sidebar
-         </li>
-         <li class="fragment" data-fragment-index="4">
-          Open it and write the previous code in it.
-        </li>
-        <li class="fragment" data-fragment-index="5">
-          Press Ctrl+Alt+T
-        </li>
-        <li class="fragment" data-fragment-index="6">
-          Type <b> <strong>gcc prog.c</strong> </b> and press Enter.
+        <section>
+          <h3>How to run a c program</h3>
+          <hr width="10%">
+          <ol>
+            <li class="fragment" data-fragment-index="1">
+              Click the file manager in sidebar
+            </li>
+            <li class="fragment" data-fragment-index="2">
+              Make new file as prog.c
+            </li>
+            <li class="fragment" data-fragment-index="3">
+              Click the file manager in sidebar
+            </li>
+            <li class="fragment" data-fragment-index="4">
+              Open it and write the previous code in it.
+            </li>
+            <li class="fragment" data-fragment-index="5">
+              Press Ctrl+Alt+T
+            </li>
+            <li class="fragment" data-fragment-index="6">
+              Type <b> <strong>gcc prog.c</strong> </b> and press Enter.
+            </li>
+            <li class="fragment" data-fragment-index="7">
+              Then type <b> ./a.out </b> and press Enter
+            </li>
+            <li class="fragment" data-fragment-index="8">
+              All set!!!!!!!!
+            </li>
+          </ol>
+        </section>
+        <section>
+          <section>
+            <h2>What was the result??</h2>
+            <img class="fragment" data-fragment-index="1" src="assets/think.jpg">
+          </section>
+          <section>
+            <h2>Line By Line BreakDown</h2>
+            <hr width=10%>
+            <br>
+                   <pre><code>
+                       #include&lt;stdio.h&gt;
+            </code></pre>
+            <p>To teach C, how to take input and display output.</p>
+          </section>
+          <section>
+                   <pre><code>
+                       int main{
+            </code></pre>
+            <p>main() is the door through which compiler enters your programme .</p>
+                   <pre><code>
+                       printf("Hello World");
+            </code></pre>
+            <p>This tells C to show output.</p>
+                   <pre><code>
+                       <p>return 0; }</p>
+            </code></pre>
+            <p>The program ended.</p>
+          </section>
+        </section>
+        <section>
+          <h5>The general form of printf() function is:</h5>
+            <pre><code>
+                printf(" &lt;format string&gt;" , " &lt;list of variables&gt;);
+          </code></pre>
+          <br/><br/>
+          <table>
+            <tbody>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >%f</td>
+                <td>for printing <em>Real Values</em></td>
+              </tr>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;">%d</td>
+                <td>for printing <em>Integer Values</em></td>
+              </tr>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >%c</td>
+                <td>for printing <em>Character Values</em></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section>
+          <h5>scanf() Function</h5>
+            <pre><code>
+                scanf(" &lt;format string&gt;" , " &lt;variable_name&gt;);
+          </code></pre>
+          <br/><br/>
+          <table>
+            <tbody>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >%f</td>
+                <td>for receiving <em>Real Values</em></td>
+              </tr>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;">%d</td>
+                <td>for receiving <em>Integer Values</em></td>
+              </tr>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >%c</td>
+                <td>for receiving <em>Character Values</em></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section>
+          <h1>Let's Greet!!</h1>
+          <p>A program to input the name of the person and print"hello  _name_ ,welcome to the c programming workshop.."</p>
+        </section>
+        <section>
+          <img src="assets/datatypes.png">
+        </section>
+        <section>
+          <table>
+            <thead>
+              <tr style="border: 1px solid #fff;" >
+                <td style="width: 500px; border-right: 1px solid #fff;">Operators</td>
+                <td style="width: 500px; border-right: 1px solid #fff;">Type</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >!</td>
+                <td>Logical Not</td>
+              </tr>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;">* \ %</td>
+                <td>Arithmetic &amp; Logical</td>
+              </tr>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >+ -</td>
+                <td>Arithmetic</td>
+              </tr>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >&lt; &gt; &lt;= &gt;=</td>
+                <td>Relational</td>
+              </tr>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >== !=</td>
+                <td>Relational</td>
+              </tr>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >&amp; &amp;</td>
+                <td>Logical AND</td>
+              </tr>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >||</td>
+                <td>Logical OR</td>
+              </tr>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >=</td>
+                <td>Assignment</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section>
+          <h3>Relational Operator</h3>
+          <table>
+            <thead>
+              <tr style="border: 1px solid #fff;" >
+                <td style="width: 300px; border-right: 1px solid #fff;">Operator</td>
+                <td style="width: 600px; border-right: 1px solid #fff;">Meaning</td>
+                <td style="width: 300px; border-right: 1px solid #fff;">Example</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >&lt;</td>
+                <td  style="border-right: 1px solid #fff;">Less than</td>
+                <td>a&lt;b</td>
+              </tr>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;">&lt;=</td>
+                <td  style="border-right: 1px solid #fff;">Less than or Equal to</em></td>
+                <td>a&lt;=b</td>
+              </tr>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >&gt;</td>
+                <td  style="border-right: 1px solid #fff;">Greater than</td>
+                <td>a&gt;b</td>
+              </tr>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >==</td>
+                <td  style="border-right: 1px solid #fff;">Equal to</td>
+                <td style="border-right: 1px solid #fff;">a==b</td>
+              </tr>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >!=</td>
+                <td style="border-right: 1px solid #fff;">Not Equal to</em></td>
+                <td>a!=b</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section>
+          <h2>If Statements</h2>
+          <p>Syntax:</p>
+          <pre><code>
+            if(exression)
+            statement;
+          </code></pre>
+          <p>Example:</p>
+          <pre><code>
+            if(3 + 2 % 5)
+            printf("It works");
+            if(a=10)
+            printf("Even this works");
+            if(-5)
+            printf("Suprisingly even this works");
+          </code></pre>
+          <p><em>Note:</em> In C a non-zero value is considered to be true, whereas a 0 is considered to be false.</p>
+        </section>
+        <section>
+          <p>If Else Statement</p>
+          <pre><code>
+            if(test expression){
 
-        </li>
-        <li class="fragment" data-fragment-index="7">
-          Then type <b> ./a.out </b> and press Enter
-        </li>
-        <li class="fragment" data-fragment-index="8">
-          All set!!!!!!!!
-        </li>
-       </ol>
-     </section>
-     <section>
-     <section>
-      <h2>What was the result??</h2>
-      <img class="fragment" data-fragment-index="1" src="assets/think.jpg">
-     </section>
-     <section>
-       <h2>Line By Line BreakDown</h2>
-       <hr width=10%>
-       <br>
-       <pre><code>
-         #include&lt;stdio.h&gt;
-       </code></pre>
-       <p>To teach C, how to take input and display output.</p>
-     </section>
-     <section>
-       <pre><code>
-         int main{
-       </code></pre>
-       <p>main() is the door through which compiler enters your programme .</p>
-       <pre><code>
-         printf("Hello World");
-       </code></pre>
-       <p>This tells C to show output.</p>
-       <pre><code>
-         <p>return 0; }</p>
-       </code></pre>
-       <p>The program ended.</p>
-     </section>
-</section>
+              statement to execute
 
+            }
+             else {
+          
+              statement to execute
+
+            }
+          </code></pre>
+        </section>
+        <section>
+          <h5>Ternary Operator</h5>
+          <p>(as a subsitute for if-else statement)</p>
+          <pre><code>
+            condition ? expression 1 : expression 2;
+
+            int x,y;
+            scanf("%d",&x);
+            y=(x > 5 ? 3 : 4);
+          </code></pre>
+          <p>This statement will store 3 in y if x is greater than 5, otherwise it will store 4 in y. </p>
+          <p>The equivalent if statement will be</p>
+          <pre><code>
+            if( x > 5 )
+             y = 3 ; 
+             else 
+             y = 4 ; 
+          </code></pre>
+        </section>
+        <section>
+          <img src="assets/ques.png" style="width: 400px; background-color: transparent; border: none; box-shadow: none;">
+          <p>Ques Time?</p>
+        </section>
+        <section>
+          <p>Ques : Take values of length and breadth of a rectangle from user and check if it is square or not.</p>
+          <p>Input:</p>
+         <p> 5 3</p>
+          <p>4 4</p>
+          Output:
+          <p>No</p>
+          <p>Yes</p>
+         </section>
+         <section>
+          <h3>Solution</h3>
+           <pre><code>
+             #include&lt;stdio.h&gt;
+             int main() {
+
+             int x,y;
+             scanf("%d %d", &x,&y);
+
+             if(x==y)
+             printf("Yes");
+
+             else
+             printf("No");
+             return 0;
+           }
+           </code></pre>
+         </section>
+         <section>
+          <img src="assets/smile.png" width="300px">
+           <h3>
+             Awesome! Your program can make important decisions now .
+           </h3>
+         </section>
+         <section>
+           <h3>The  three  Musketeers…. </h3>
+          <ul>
+            <li>
+              For
+            </li>
+            <li>While</li>
+            <li>Do While</li>
+          </ul>
+         </section>
+         <section>
+           <h3>For-Loop</h3>
+           <p>Syntax:</p>
+           <pre><code>
+             for(initialise counter  ; test counter ; update counter)
+             {
+              do this;
+              and this;
+              and this;
+             }
+           </code></pre>
+           <pre><code>
+             main()
+             {
+              int i;
+              for(i=0 ; i &lt;= 10 ; i++)
+              printf("%d ",i);
+             }
+
+             Output: 1 2 3 4 5 6 7 8 9 10
+           </code></pre>
+         </section>
+         <section>
+           <h3>While Loop</h3>
+           <p>Syntax:</p>
+           <pre><code>
+             initialise loop counter ;
+
+             while(test loop counter using a condition)
+              {
+                Do this;
+                And this;
+                Update loop counter;
+              }
+           </code></pre>
+         </section>
+         <section>
+           <img src="assets/ques.png" width="400px">
+           <p>Questions to practise</p>
+         </section>
+         <section>
+           <h3>Questions</h3>
+           <ul>
+             <li>Write a program to print all natural numbers from 1 to n</li>
+             <li>Print all even numbers from 1 to 100</li>
+             <li>Calculate products of digits of a number</li>
+             <li>Calculate Factorial of a given number</li>
+             <li>Write a program to find sum of all prime numbers between  1 to n</li>
+           </ul>
+         </section>
+         <section>
+           <h3>Do While Loop</h3>
+           <p>Syntax:</p>
+           <pre><code>
+            do 
+            {
+              this;
+              and this;
+              and this;
+            }
+            while(this condition is true);
+           </code></pre>
+            <p>Note: This loop executes for at least once irrespective of the test condition  due to the “do” block.</p>
+         </section>
         <!-- <section>
           <section>
             <p>First things first!</p>
             <h3><a>HTML is <strong>NOT</strong> a programming language.</a></h3>
             <p>its a markup language.</p>
-
           </section>
           <section>
             <h2>MarkUp VS Programming </h2>
@@ -182,71 +470,52 @@
             </table>
           </section>
         </section> -->
-
-
-
         <!-- ============================= MAIN CONTENT ====================================== -->
         <!-- <section>
           Basic Folder Structure
-          <pre> <code>
-            |-- css
-            |   |-- style.css
-            |
-            |-- img
-            |   |-- border.jpg
-            |   |-- logo.gif
-            |
-            |-- js
-            |   |-- myscript.js
-            |
-            |-- html (other pages)
-            |   |-- contact.html
-            |   |-- home.html
-            |
-            |-- index.html
+                    <pre> <code>
+                        |-- css
+                        |   |-- style.css
+                        |
+                        |-- img
+                        |   |-- border.jpg
+                        |   |-- logo.gif
+                        |
+                        |-- js
+                        |   |-- myscript.js
+                        |
+                        |-- html (other pages)
+                        |   |-- contact.html
+                        |   |-- home.html
+                        |
+                        |-- index.html
           </code></pre>
         </section> -->
-
-       
-        <section>
-            <h2>Questions ?</h2>
-            <p>
-                Find us @ <br>
-                Lab 3 <br>
-                AB - I, Computer Center <br>
-                4:30 - 7:30 pm
-            </p>
-        </section>
       </div>
-
     </div>
-
-  <!-- reveal.js JS Files -->
-  <script src="lib/js/head.min.js"></script>
-	<script src="js/reveal.js"></script>
-
-	<script>
-		// Required, even if empty.
-		Reveal.initialize({
-      history: true,
-      transition:'convex',
-
-      dependencies: [
-        { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-      ]
-		});
+    <!-- reveal.js JS Files -->
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+      // Required, even if empty.
+      Reveal.initialize({
+    history: true,
+    transition:'convex',
+    dependencies: [
+    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    ]
+      });
     Reveal.configure({ slideNumber: 'h.v' });
-	</script>
-
-  <!-- Script to save PDF. Put "print-pdf" in query string and press Ctrl+P to save. -->
-  <script>
-      if( window.location.search.match( /print-pdf/gi ) ) {
-      var link = document.createElement( 'link' );
-      link.rel = 'stylesheet';
-      link.type = 'text/css';
-      link.href = 'css/print/pdf.css';
-      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+    <!-- Script to save PDF. Put "print-pdf" in query string and press Ctrl+P to save. -->
+    <script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'css/print/pdf.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
     }
-  </script>
+    </script>
   </body>
 </html>
