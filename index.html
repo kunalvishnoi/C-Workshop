@@ -197,84 +197,78 @@
           <img src="assets/datatypes.png">
         </section>
         <section>
-          <table>
-            <thead>
-              <tr style="border: 1px solid #fff;" >
-                <td style="width: 500px; border-right: 1px solid #fff;">Operators</td>
-                <td style="width: 500px; border-right: 1px solid #fff;">Type</td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr style="border: 1px solid #fff;">
-                <td style="border-right: 1px solid #fff;" >!</td>
-                <td>Logical Not</td>
-              </tr>
-              <tr style="border: 1px solid #fff;">
-                <td style="border-right: 1px solid #fff;">* \ %</td>
-                <td>Arithmetic &amp; Logical</td>
-              </tr>
-              <tr style="border: 1px solid #fff;">
-                <td style="border-right: 1px solid #fff;" >+ -</td>
-                <td>Arithmetic</td>
-              </tr>
-              <tr style="border: 1px solid #fff;">
-                <td style="border-right: 1px solid #fff;" >&lt; &gt; &lt;= &gt;=</td>
-                <td>Relational</td>
-              </tr>
-              <tr style="border: 1px solid #fff;">
-                <td style="border-right: 1px solid #fff;" >== !=</td>
-                <td>Relational</td>
-              </tr>
-              <tr style="border: 1px solid #fff;">
-                <td style="border-right: 1px solid #fff;" >&amp; &amp;</td>
-                <td>Logical AND</td>
-              </tr>
-              <tr style="border: 1px solid #fff;">
-                <td style="border-right: 1px solid #fff;" >||</td>
-                <td>Logical OR</td>
-              </tr>
-              <tr style="border: 1px solid #fff;">
-                <td style="border-right: 1px solid #fff;" >=</td>
-                <td>Assignment</td>
-              </tr>
-            </tbody>
-          </table>
+          <h3>Operators with their Precedence</h3>
         </section>
         <section>
-          <h3>Relational Operator</h3>
           <table>
-            <thead>
-              <tr style="border: 1px solid #fff;" >
-                <td style="width: 300px; border-right: 1px solid #fff;">Operator</td>
-                <td style="width: 600px; border-right: 1px solid #fff;">Meaning</td>
-                <td style="width: 300px; border-right: 1px solid #fff;">Example</td>
-              </tr>
-            </thead>
             <tbody>
               <tr style="border: 1px solid #fff;">
-                <td style="border-right: 1px solid #fff;" >&lt;</td>
-                <td  style="border-right: 1px solid #fff;">Less than</td>
-                <td>a&lt;b</td>
+                <td style="border-right: 1px solid #fff;">Unary</td>
+                <td  style="border-right: 1px solid #fff;">+ - ! ~ ++ -- (type) * &amp; sizeof</td>
+                <td>Right to Left</td>
               </tr>
               <tr style="border: 1px solid #fff;">
-                <td style="border-right: 1px solid #fff;">&lt;=</td>
-                <td  style="border-right: 1px solid #fff;">Less than or Equal to</em></td>
-                <td>a&lt;=b</td>
+                <td style="border-right: 1px solid #fff;">Multiplicative</td>
+                <td  style="border-right: 1px solid #fff;">* / %</td>
+                <td>Left to Right</td>
               </tr>
               <tr style="border: 1px solid #fff;">
-                <td style="border-right: 1px solid #fff;" >&gt;</td>
-                <td  style="border-right: 1px solid #fff;">Greater than</td>
-                <td>a&gt;b</td>
+                <td style="border-right: 1px solid #fff;" >Additive</td>
+                <td  style="border-right: 1px solid #fff;">+ -</td>
+                <td>Left to Right</td>
               </tr>
               <tr style="border: 1px solid #fff;">
-                <td style="border-right: 1px solid #fff;" >==</td>
-                <td  style="border-right: 1px solid #fff;">Equal to</td>
-                <td style="border-right: 1px solid #fff;">a==b</td>
+                <td style="border-right: 1px solid #fff;" >Shift</td>
+                <td  style="border-right: 1px solid #fff;">&lt;&lt; &gt;&gt;</td>
+                <td style="border-right: 1px solid #fff;">Left to Right</td>
               </tr>
               <tr style="border: 1px solid #fff;">
-                <td style="border-right: 1px solid #fff;" >!=</td>
-                <td style="border-right: 1px solid #fff;">Not Equal to</em></td>
-                <td>a!=b</td>
+                <td style="border-right: 1px solid #fff;" >Relational</td>
+                <td style="border-right: 1px solid #fff;">&lt; &lt;= &gt; &gt;=</em></td>
+                <td>Left to Right</td>
+              </tr>
+               <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >Equity</td>
+                <td style="border-right: 1px solid #fff;">== !=</em></td>
+                <td>Left to Right</td>
+              </tr>
+               <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >Bitwise AND</td>
+                <td style="border-right: 1px solid #fff;">&amp;</em></td>
+                <td>Left to Right</td>
+              </tr>
+               <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >Bitwise XOR</td>
+                <td style="border-right: 1px solid #fff;">^</em></td>
+                <td>Left to Right</td>
+              </tr>
+               
+            </tbody>
+          </table>
+          <p>Table Continued....</p>
+        </section>
+        <section>
+          <table>
+            <tbody>
+              <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >Bitwise OR</td>
+                <td style="border-right: 1px solid #fff;">|</em></td>
+                <td>Left to Right</td>
+              </tr>
+               <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >Logical AND</td>
+                <td style="border-right: 1px solid #fff;">&amp;&amp;</td>
+                <td>Left to Right</td>
+              </tr>
+               <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >Logical OR</td>
+                <td style="border-right: 1px solid #fff;">||</td>
+                <td>Left to Right</td>
+              </tr>
+               <tr style="border: 1px solid #fff;">
+                <td style="border-right: 1px solid #fff;" >Conditional</td>
+                <td style="border-right: 1px solid #fff;">?:</em></td>
+                <td>Right to Left</td>
               </tr>
             </tbody>
           </table>
@@ -369,7 +363,10 @@
            </h3>
          </section>
          <section>
-           <h3>The  three  Musketeers…. </h3>
+           <img src="assets/three.png">
+         </section>
+         <section>
+           <h3 style="color: #42affa;">LOOPS</h3>
           <ul>
             <li>
               For
@@ -401,6 +398,10 @@
            </code></pre>
          </section>
          <section>
+          <h3>Flow of the For Loop</h3>
+           <img src="assets/forloop.png">
+         </section>
+         <section>
            <h3>While Loop</h3>
            <p>Syntax:</p>
            <pre><code>
@@ -415,20 +416,6 @@
            </code></pre>
          </section>
          <section>
-           <img src="assets/ques.png" width="400px">
-           <p>Questions to practise</p>
-         </section>
-         <section>
-           <h3>Questions</h3>
-           <ul>
-             <li>Write a program to print all natural numbers from 1 to n</li>
-             <li>Print all even numbers from 1 to 100</li>
-             <li>Calculate products of digits of a number</li>
-             <li>Calculate Factorial of a given number</li>
-             <li>Write a program to find sum of all prime numbers between  1 to n</li>
-           </ul>
-         </section>
-         <section>
            <h3>Do While Loop</h3>
            <p>Syntax:</p>
            <pre><code>
@@ -441,6 +428,24 @@
             while(this condition is true);
            </code></pre>
             <p>Note: This loop executes for at least once irrespective of the test condition  due to the “do” block.</p>
+         </section>
+         <section>
+           <h3>Flow of the while and do while loop</h3>
+           <img src="assets/while.png" width="600px">
+         </section>
+          <section>
+           <img src="assets/ques.png" width="400px">
+           <p> Need Questions for practise?</p>
+         </section>
+         <section>
+           <h3>Questions</h3>
+           <ul>
+             <li>Write a program to print all natural numbers from 1 to n</li>
+             <li>Print all even numbers from 1 to 100</li>
+             <li>Calculate products of digits of a number</li>
+             <li>Calculate Factorial of a given number</li>
+             <li>Write a program to find sum of all prime numbers between  1 to n</li>
+           </ul>
          </section>
         <!-- <section>
           <section>
